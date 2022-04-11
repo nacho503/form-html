@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+.label-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container{
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 500px;
+    flex-direction: column;
+
+}
+
+form{
+    border-style:solid;
+    border-color: rgb(152, 148, 146);
+
+}
+
+.titulo{
+    border-bottom: solid rgb(152, 148, 146) ;
+    background-color: rgb(218, 217, 217);
+}
+
+.row3-3inputs{
+    margin-top: 10px !important;
+    display:flex;
+    padding-bottom: 10px !important;
+}
+
+.row4-2inputs{
+    display:flex; 
+    justify-content: space-between;
+    padding-bottom: 10px !important;
+}
+
+.row5-3elements{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px !important;
+    align-items: center;
+}
+
+.row6-pagos-message{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px !important;
+}
+
+.medios-pago{
+    background-color: slategrey;
+    border-radius: 3px;
+}
+
+.row7-botones{
+    border-top: solid rgb(152, 148, 146) ;
+    background-color: rgb(218, 217, 217);
+    display: flex;
+    justify-content: end;
+}
+
+button{
+    color: white;
+    margin-right: 3px;
+    border: none;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+button:first-child{
+    background-color: darkgrey;
+    
+}
+button:nth-child(2){
+    background-color: blue;
+}
